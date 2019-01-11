@@ -1,0 +1,31 @@
+{
+  "name": "putenv",
+  "description": "putenv",
+  "version": "0.0.1",
+  "author": {
+    "name": "Zac Anger",
+    "email": "zac@zacanger.com",
+    "url": "https://zacanger.com"
+  },
+  "bugs": "https://github.com/zacanger/putenv/issues",
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "homepage": "https://github.com/zacanger/putenv#readme",
+  "keywords": [
+    "",
+    "putenv"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zacanger/putenv.git"
+  },
+  "scripts": {
+    "start": "node index",
+    "test": ""
+  }
+}
