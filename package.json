@@ -1,6 +1,6 @@
 {
   "name": "putenv",
-  "description": "putenv",
+  "description": "putenv(3) for Node",
   "version": "0.0.1",
   "author": {
     "name": "Zac Anger",
@@ -15,7 +15,7 @@
   },
   "homepage": "https://github.com/zacanger/putenv#readme",
   "keywords": [
-    "",
+    "env",
     "putenv"
   ],
   "license": "MIT",
