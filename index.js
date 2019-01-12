@@ -1,3 +1,9 @@
-const thing = require('./build/Release/putenv-wrapper.node')
+const ffi = require('ffi')
 
-module.exports = ({ key, val }) => !!thing(`${key}=${val}`)
+const wrapperPath = 'build/Release/putenv-wrapper'
+
+const putenv = ffi.Library(wrapperPath, {
+  wrapper: [ 'int', [ 'string' ] ]
+})
+
+module.exports = ({ key, val }) => !putenv.wrapper(`${key}=${val}`)
