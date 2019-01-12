@@ -10,9 +10,6 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "build": "npm run clean && npm run gyp",
-    "clean": "node-gyp clean",
-    "gyp": "node-gyp configure && node-gyp build",
     "preversion": "npm t",
     "test": "npm run test:lint",
     "test:lint": "eslint -c .eslintrc.json *.js"
@@ -27,10 +24,7 @@
     "env",
     "putenv"
   ],
-  "dependencies": {
-    "ffi": "2.3.0",
-    "node-addon-api": "1.6.2"
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel-eslint": "10.0.1",
     "eslint": "5.12.0",
@@ -39,8 +33,7 @@
     "eslint-plugin-import": "2.14.0",
     "eslint-plugin-node": "8.0.1",
     "eslint-plugin-promise": "4.0.1",
-    "eslint-plugin-unicorn": "6.0.1",
-    "node-gyp": "3.8.0"
+    "eslint-plugin-unicorn": "6.0.1"
   },
   "engines": {
     "node": ">=10.0.0"

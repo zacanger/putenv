@@ -2,8 +2,6 @@
 
 `putenv(3)` for Node.
 
-I don't think it works yet.
-
 --------
 
 ## Installation
@@ -13,6 +11,8 @@ I don't think it works yet.
 ## Usage
 
 `require('putenv')('foo', 'bar')`
+
+See the test branch for an experiment using C and ffi.
 
 ## License
 
