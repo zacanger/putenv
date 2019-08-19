@@ -12,8 +12,6 @@
 
 `require('putenv')('foo', 'bar')`
 
-See the test branch for an experiment using C and ffi.
-
 ## License
 
 [MIT](./LICENSE.md)
